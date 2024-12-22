@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact us</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="contactus.css">
+    <link rel="icon" href="logo.png">
+</head>
+<body>
+    <header>
+        <div id="navbar">
+            <img id="logo" src="logo.png" alt="logo">
+            <nav>
+                <ul>
+                    <li><a href="../home/home.html">Home</a></li>
+                    <li><a href="../home/home.html#about">About Us</a></li>
+                    <li class="dropdown">
+                        <a href="#">Categories</a><i class="fa-solid fa-chevron-down"></i>
+                        <div class="options">
+                            <a href="../skin/skincare.html" target="_blank">Skincare</a>
+                            <a href="../makeup/makeup.html" target="_blank">Makeup</a>
+                            <a href="../hair/haircare.html" target="_blank">Hair care</a>
+                            <a href="../perfume/perfume.html" target="_blank">Perfume</a>
+                            <a href="../acc/accessories.html" target="_blank">Accessories</a>
+                            <a href="../clothes/clothes.html" target="_blank">Clothes</a>
+                            <a href="../hijab/hijab.html" target="_blank">Hijab</a>
+                        </div>
+                    </li>
+                    <li><a href="../contact/contactus.html">Contact Us</a></li>
+                    <li><a href="../checkout/checkout.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                    <li><a href="../register/login.html" ><i class="fa-solid fa-user"></i></a></li>
+                    <li><a href="../reviews/test.html" ><i class="fa-solid fa-star"></i></a></li>
+                    <li id="theme-toggle"><button id="theme-toggle"> <i class="fa-solid fa-moon"></i></button></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="pink-box">
+            <h2>Contact Us</h2>
+            <p><i class="fas fa-map-marker-alt"></i>Ismailia- Suez Canal University - FCI</p>
+            <p><i class="fas fa-envelope"></i>hello@Beautique.com</p>
+            <p><i class="fas fa-phone-alt"></i>+0123 456 7890</p>
+            <p><i class="fas fa-fax"></i>+3356 1589 2100</p>
+        </div>
+        <div class="form-section">
+            <h2>Stay in Touch!</h2>
+            <p>Feel free to drop us a line below</p>
+            <div class="form-group">
+                <input type="text" id="name" placeholder="Your Name">
+                <p id="nameError" class="error-message"></p>
+            </div>
+
+            <div class="form-group">
+                <input type="email" id="email" placeholder="Your Email">
+                <p id="emailError" class="error-message"></p>
+            </div>
+
+            <div class="form-group">
+                <textarea id="message" placeholder="Typing your message here..."></textarea>
+                <p id="messageError" class="error-message"></p>
+                <button id="submitButton">Send</button>
+            </div>
+    </div>
+    <script src="contactus.js"></script>
+    <script src="darkmode.js"></script>
+</body>
+</html>
